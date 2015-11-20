@@ -21,40 +21,53 @@
         }
 
         body {
+
             display: table-cell;
             vertical-align: middle;
             margin: 2em auto;
+            background-color: #373543;
+            background-image: url("img/page_404_fond.svg");
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
         }
 
         h1 {
             color: #555;
-            font-size: 2em;
+            font-size: 3em;
             font-weight: 400;
+            margin-bottom: 40px;
         }
 
         p {
             margin: 0 auto;
             width: 280px;
+            color: #1c292f;
+            font-weight: bold;
+            font-size: 2em;
         }
 
         @media only screen and (max-width: 280px) {
 
             body, p {
                 width: 95%;
+
             }
 
             h1 {
-                font-size: 1.5em;
+                font-size: 2em;
                 margin: 0 0 0.3em;
             }
+
 
         }
 
     </style>
 </head>
 <body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+    <h1>Désolé ! </h1>
+    <p>Il n' y a rien d'autre ici<br>que la Zenitude !</p>
 </body>
 </html>
 <!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
