@@ -95,28 +95,12 @@ textarea {
 /* ==========================================================================
    Huguette's custom styles
    ========================================================================== */
-    /*body {
-        background-color: #373543;
-    }
-    body img {
-        background-position: center center;
-        background-size:contain;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }*/
-   /*.cta {
-       width: 255px;
-       height: 135px;
-       border-color: #e94953;
-       border: 1px;
-       background-color: inherit;
-       margin-top: 300px;
-   }*/
 
     body img {
         clear: both;
         z-index: 1;
         width: 100%;
+        overflow: hidden;
     }
   .top-bar {
         margin-bottom: 20px;
@@ -131,11 +115,19 @@ textarea {
     #block2 { /*------------block 2 et block 3 couleur de fond et bordure ------*/
         height: 390px;
         border: 6px solid black;
+        border-bottom: 0px solid;
     }
     #block3 {
         height: 390px;
         border: 6px solid black;
         border-left: 2px;
+        border-bottom: 0px solid;
+    }
+    #block5 {
+        border: 5px solid black;
+        height: 200px;
+        width: 1065px;
+        margin-left: 25px;
     }
     #blockcolor { /*------------style de la row 1 entiere ------*/
         margin-top: 20px;
@@ -157,7 +149,9 @@ textarea {
    }
 
 @media all and (max-width:600px) {
-
+    body{
+        overflow: hidden;
+    }
     #bannerlogo {
         background-color: #363442;
         padding-bottom: 15px;
