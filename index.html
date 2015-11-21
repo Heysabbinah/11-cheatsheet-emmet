@@ -74,9 +74,6 @@
     <!-- /////////////////////// DEBUT BLOCK COLOR  //////////////////////////////////-->
 
     <div class="row">
-        <div id="banner"class="small-12 columns show-for-medium-only">
-            <img src="img/banner_md.jpg" alt="banniere emmet"/>
-        </div>
         <div id="banner"class="small-12 columns show-for-small-only">
             <img src="img/banner-sm.jpg" alt="banniere emmet"/>
         </div>
@@ -85,11 +82,11 @@
 <div class="row block1"><!--ici la premiere ligne selon le schema grille imbriquee-->
         <div class="small-12 columns">
             <div id="blockcolor"class="row">
-                  <div id="block1"class="small-4 columns violet"><!--ici format portrait-->
+                  <div id="block1"class="small-4 columns violet hide-for-small-only"><!--ici format portrait-->
                   <img src="img/banner_side.jpg" />
                   </div><!--fin block1-->
 
-              <div id="block2"class="small-4 columns jaune ">
+              <div id="block2"class="large-4 medium-4 hide-for-small-only  columns jaune ">
                     <h3>CSS</h3>
                     <h5 class="subheader"><span>Cliquez sur une categorie</span></h5>
                     <ul><!-- liste des categorie - ancre-->
@@ -102,7 +99,7 @@
                         <li><a href="#list">LIST</a></li>
                     </ul>
                    </div><!--fin block2-->
-                   <div id="block3"class="small-4 columns offset-4 bleu">
+                   <div id="block3"class="large-4 medium-4 hide-for-small-only end columns offset-4 bleu">
                        <h3>HTML</h3>
                        <h5 class="subheader">Cliquez sur une categorie</h5>
                        <ul><!-- liste des categorie - ancre-->
@@ -113,10 +110,9 @@
                    </div><!--fin block3-->
              </div><!--fin block1-->
            </div><!--fin row blockcolor-->
-           <!-- //////// block couleur pr tablette //////////////-->
 
            <!--/////// debut du block 4 en dessous sur toute la largeur --->
-           <div id="block4"class="small-12 columns offset-6 rose">
+           <div id="block4"class="large-12 medium-12 hide-for-small-only  columns rose">
                <h3>SYNTHAXE</h3>
                <h5 class="subheader">Cliquez sur une categorie</h5>
                <ul><!-- liste des categorie - ancre-->
@@ -125,27 +121,12 @@
                    <li><a href="#text">TEXT</a></li>
                </ul>
            </div><!--fin block4-->
-
-<!--
-           <div  id="blockcolor2"class="row show-for-medium-only">
-               <div class="small-12 columns"
-
-               <div id="block2"class="large-4 column gray">
-                     <p>111111111</p>
-                </div>
-                <div id="block3"class="large-4 column blue">
-                    <p>2222222222</p>
-                 </div>
-                 <div id="block4"class="large-4 column violet">
-                     <p>33333333333</p>
-                  </div>
-              </div>
-          </div>< -->
-
-
+       </div> <!-- fin de row block5 -->
+       </div> <!-- fin de row block6 -->
+       </div> <!-- fin de row block7 -->
 
 <!-- //////// debut explication shortcode ////////////-->
-
+<div class="tabletheme" "hide-for-small-only">
     <div class="row blockcss">
         <div class="small-12 columns">
             <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
@@ -744,15 +725,10 @@
 </tbody>
 </table> <!--//////fin tablehtml ////////-->
 
-
-
-
-</div> <!-- fin de row block5 -->
-</div> <!-- fin de row block6 -->
-</div> <!-- fin de row block7 -->
-
+</div>
 
 </div><!--fin row interne-->
+
 
 <!-- PLUGIN FOUNDATION -->
     <script src="js/vendor/jquery.js"></script>
