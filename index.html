@@ -2,32 +2,33 @@
 <html class="no-js" lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <title>Cheatsheet Emmet</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/mystyle.css"/>
     <script src="js/vendor/modernizr.js"></script>
     <style>
     .jaune {
-        background-color: #f4e07f;
+       background-color: #fff8bb;
     }
     .bleu {
         background-color: #15b0bf;
     }
     .rose {
-        background-color:#e2596c;
+        background-color:#9c0e7a;
     }
-    .green {
-        background-color:#96cfb3;
+    .violet {
+        background-color: #373543;
     }
+
     </style>
 </head>
 <header>
@@ -44,90 +45,139 @@
             <nav class="top-bar" data-topbar data-options="is_hover: false"><!--data option hover false interdit l'utilisation du survol pour le menu-->
                 <ul class="title-area">
                     <li class="name">
-                        <h1><a href="#">Navigation</a></h1>
+                        <h1><a href="#">Emmet</a></h1>
                     </li>
                 </ul>
-                <section class="top-bar-section"> <!--deux groupes de menu utilise des listes ul -->
+                    <section class="top-bar-section"> <!--deux groupes de menu utilise des listes ul -->
                     <!--Navigation de droite -->
-                    <ul class="right">
-                        <li class="active"><a href="#">Destination</a></h1>
-                        <li><a href="#">Activites</a></li>
-                        <li><a href="#">Equipe</a></li>
-                        <li class="has-dropdown"><!--menu deroulant -->
-                            <a href="#">Project</a>
-                            <ul class="dropdown"> <!--drop vers le bas-->
-                                <li><a href="#">Reportage</a></li>
-                                <li><a href="#">Photographie</a></li>
-                                <li><a href="#">Expedition</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <!--Navigation de gauche -->
-                    <ul class="left">
-                        <li><a href="#">Analyse</a></li>
-                        <li><a href="#">Conception</a></li>
-                        <li><a href="#">Realisation</a></li>
-                    </ul>
+                        <ul class="right">
+                            <li><a href="#">Mac osX</a></h1>
+                            <li><a href="#">Unix</a></li>
+                            <li><a href="#">Git</a></li>
+                            <li><a href="#">Vim</a></h1>
+                            <li><a href="#">Html5</a></li>
+                            <li><a href="#">Css3</a></li>
+                            <li class="active"><a href="#">Emmet</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                        </ul>
                 </section>
-                </nav>
-            </div>
+            </nav>
+        </div><!--fin de la row block1-->
 
 <!-- ///////////////////////////// DEBUT DU CONTENU PRINCIPAL ///////////////////////////////-->
 
 <div class="row"> <!-- mise en place des banner selon les devices-->
-    <div id="bannerlogo"class="large-12 columns hide-for-small-only">
-        <img src="img/banner-logo.png"/>
+    <div id="bannerlogo"class="small-12 columns hide-for-small-only">
+        <img src="img/banner-logo.png" alt="logo huguette les bons tuyaux"/>
     </div>
+
+    <!-- /////////////////////// DEBUT BLOCK COLOR  //////////////////////////////////-->
+
     <div class="row">
-        <div id="banner"class="large-12 columns show-for-medium-only">
-            <img src="img/banner_md.jpg"/>
+        <div id="banner"class="small-12 columns show-for-medium-only">
+            <img src="img/banner_md.jpg" alt="banniere emmet"/>
         </div>
-        <div class="row">
-            <div id="banner"class="large-12 columns show-for-small-only">
-                <img src="img/banner-sm.jpg"/>
-            </div>
+        <div id="banner"class="small-12 columns show-for-small-only">
+            <img src="img/banner-sm.jpg" alt="banniere emmet"/>
+        </div>
+
 
     <div class="row block1"><!--ici la premiere ligne selon le schema grille imbriquee-->
         <div class="small-12 columns">
-            <div  id="blockcolor"class="row">
-                <div id="block1"class="small-4 columns show-for-large-only"><!--ici format portrait-->
+            <div id="blockcolor"class="row">
+                  <div id="block1"class="small-4 columns violet show-for-large-only"><!--ici format portrait-->
                   <img src="img/banner_side.jpg" />
-              </div><!--fin interne-->
+                  </div><!--fin block1-->
 
-    <!-- //////// commencement des blocks couleurs //////////////-->
+              <div id="block2"class="small-4 columns jaune show-for-large-only">
+                    <h3>CSS</h3>
+                    <h5 class="subheader"><span>Cliquez sur une categorie</span></h5>
+                    <ul><!-- liste des categorie - ancre-->
+                        <li>Background</li>
+                        <li>Color</li>
+                        <li>Margin/Padding</li>
+                        <li>Table</li>
+                        <li>Border</li>
+                        <li>Font</li>
+                        <li>List</li>
+                    </ul>
+                   </div><!--fin block2-->
+                   <div id="block3"class="small-4 columns offset-4 bleu show-for-large-only">
+                       <h3>HTML</h3>
+                       <h5 class="subheader">Cliquez sur une categorie</h5>
+                       <ul><!-- liste des categorie - ancre-->
+                           <li>a/Link</li>
+                           <li>Button</li>
+                           <li>Image/Source</li>
+                           <li>Html</li>
+                           <li>Input</li>
+                           <li>Media</li>
+                       </ul>
+                   </div><!--fin block3-->
+             </div><!--fin block1-->
+           </div><!--fin row blockcolor-->
 
-          <div id="block2"class="small-8 column jaune show-for-large-only">
-                <p>1</p>
-           </div>
-           <div id="block3"class="small-8 column offset-6 bleu show-for-large-only">
-               <p>2</p>
-            </div>
-            <div id="block4"class="small-8 column offset-6 rose show-for-large-only">
-                <p>3</p>
-             </div>
-         </div><!--fin row block1-->
+           <!--/////// debut du block 4 en dessous sur toute la largeur --->
+           <div id="block4"class="small-12 columns offset-6 rose show-for-large-only">
+               <h3>SYNTHAXE</h3>
+               <h5 class="subheader">Cliquez sur une categorie</h5>
+               <ul><!-- liste des categorie - ancre-->
+                   <li>ID/Class attribute</li>
+                   <li>Item numbering</li>
+                   <li>Text</li>
+                   <li>Grouping</li>
+               </ul>
+           </div><!--fin block4-->
 
-<!-- //////// banner logo ancre //////////////-->
+      </div><!--fin row interne-->
 
+<!-- //////// debut explication shortcode ////////////-->
+
+    <div class="row block4">
+        <div class="small-6 columns">
+            <table>
+  <thead>
+    <tr>
+      <th width="200">Table Header</th>
+      <th>Table Header</th>
+      <th width="150">Table Header</th>
+      <th width="150">Table Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- //////// block couleur pr tablette //////////////-->
-            <div class="row block3 large-12 columns show-for-medium-only">
-                <div class="expanded button-group">
-                   <a class="button">CSS</a>
-                   <a class="button">HTML5</a>
-                   <a class="button">SYNTHAXE</a>
-                </div>
-            </div>
+
             <div  id="blockcolor2"class="row show-for-medium-only">
 
-                <div id="block2"class="large-4 column jaune">
-                      <p>T1</p>
+                <div id="block2"class="large-4 column gray">
+                      <p>111111111</p>
                  </div> <!--fin small 6 interne 2 bleu-->
-                 <div id="block3"class="large-4 column bleu offset-4">
-                     <p>T2</p>
+                 <div id="block3"class="large-4 column blue">
+                     <p>2222222222</p>
                   </div>
-                  <div id="block4"class="large-4 column rose">
-                      <p>T3</p>
+                  <div id="block4"class="large-4 column violet">
+                      <p>33333333333</p>
                    </div>
           </div><!--fin row block2-->
 
@@ -135,11 +185,6 @@
 
 
   </div><!--fin du block left-->
-
-<!-- <div id="side"class="row hide-for-small-only">
-    <div class="large-5 columns">
-    <img src="img/banner_side.jpg">
-</div> -->
 
 
 
