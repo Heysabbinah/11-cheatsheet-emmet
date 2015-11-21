@@ -41,7 +41,7 @@
 
 <!-- ////////////////////// MENU SUP /////////////////-->
 
-        <div class="row block1 hide-for-small-only"><!--barre de nav laterale-->
+        <div class="row block1"><!--barre de nav laterale-->
             <nav class="top-bar" data-topbar data-options="is_hover: false"><!--data option hover false interdit l'utilisation du survol pour le menu-->
                 <ul class="title-area">
                     <li class="name">
@@ -65,7 +65,7 @@
         </div><!--fin de la row block1-->
 
 <!-- ///////////////////////////// DEBUT DU CONTENU PRINCIPAL ///////////////////////////////-->
-
+<div class="container">
 <div class="row"> <!-- mise en place des banner selon les devices-->
     <div id="bannerlogo"class="small-12 columns hide-for-small-only">
         <img src="img/banner-logo.png" alt="logo huguette les bons tuyaux"/>
@@ -82,112 +82,677 @@
         </div>
 
 
-    <div class="row block1"><!--ici la premiere ligne selon le schema grille imbriquee-->
+<div class="row block1"><!--ici la premiere ligne selon le schema grille imbriquee-->
         <div class="small-12 columns">
             <div id="blockcolor"class="row">
-                  <div id="block1"class="small-4 columns violet show-for-large-only"><!--ici format portrait-->
+                  <div id="block1"class="small-4 columns violet"><!--ici format portrait-->
                   <img src="img/banner_side.jpg" />
                   </div><!--fin block1-->
 
-              <div id="block2"class="small-4 columns jaune show-for-large-only">
+              <div id="block2"class="small-4 columns jaune ">
                     <h3>CSS</h3>
                     <h5 class="subheader"><span>Cliquez sur une categorie</span></h5>
                     <ul><!-- liste des categorie - ancre-->
-                        <li>Background</li>
-                        <li>Color</li>
-                        <li>Margin/Padding</li>
-                        <li>Table</li>
-                        <li>Border</li>
-                        <li>Font</li>
-                        <li>List</li>
+                        <li><a href="#background">BACKGROUND</a></li>
+                        <li><a href="#color">COLOR</a></li>
+                        <li><a href="#margin">MARGIN/PADDING</a></li>
+                        <li><a href="#table">TABLE</a></li>
+                        <li><a href="#border">BORDER</a></li>
+                        <li><a href="#font">FONT</a></li>
+                        <li><a href="#list">LIST</a></li>
                     </ul>
                    </div><!--fin block2-->
-                   <div id="block3"class="small-4 columns offset-4 bleu show-for-large-only">
+                   <div id="block3"class="small-4 columns offset-4 bleu">
                        <h3>HTML</h3>
                        <h5 class="subheader">Cliquez sur une categorie</h5>
                        <ul><!-- liste des categorie - ancre-->
-                           <li>a/Link</li>
-                           <li>Button</li>
-                           <li>Image/Source</li>
-                           <li>Html</li>
-                           <li>Input</li>
-                           <li>Media</li>
+                           <li><a href="#alink">A/LINK</a></li>
+                           <li><a href="#button">BUTTON</a></li>
+                           <li><a href="#media">MEDIA</a></li>
                        </ul>
                    </div><!--fin block3-->
              </div><!--fin block1-->
            </div><!--fin row blockcolor-->
+           <!-- //////// block couleur pr tablette //////////////-->
 
            <!--/////// debut du block 4 en dessous sur toute la largeur --->
-           <div id="block4"class="small-12 columns offset-6 rose show-for-large-only">
+           <div id="block4"class="small-12 columns offset-6 rose">
                <h3>SYNTHAXE</h3>
                <h5 class="subheader">Cliquez sur une categorie</h5>
                <ul><!-- liste des categorie - ancre-->
-                   <li>ID/Class attribute</li>
-                   <li>Item numbering</li>
-                   <li>Text</li>
-                   <li>Grouping</li>
+                   <li><a href="#id">ID/ATRIBUTES</a></li>
+                   <li><a href="#item">ITEM NUMBERING</a></li>
+                   <li><a href="#text">TEXT</a></li>
                </ul>
            </div><!--fin block4-->
 
-      </div><!--fin row interne-->
+<!--
+           <div  id="blockcolor2"class="row show-for-medium-only">
+               <div class="small-12 columns"
+
+               <div id="block2"class="large-4 column gray">
+                     <p>111111111</p>
+                </div>
+                <div id="block3"class="large-4 column blue">
+                    <p>2222222222</p>
+                 </div>
+                 <div id="block4"class="large-4 column violet">
+                     <p>33333333333</p>
+                  </div>
+              </div>
+          </div>< -->
+
+
 
 <!-- //////// debut explication shortcode ////////////-->
 
-    <div class="row block4">
-        <div class="small-6 columns">
-            <table>
+    <div class="row blockcss">
+        <div class="small-12 columns">
+            <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
   <thead>
     <tr>
-      <th width="200">Table Header</th>
-      <th>Table Header</th>
-      <th width="150">Table Header</th>
-      <th width="150">Table Header</th>
+      <th width="300"><div id="background">BACKGROUND</div></th>
+      <th class="text-right"><a href="#bannerlogo">Retour au debut</a></th>
+      <th width="200"></th>
+      <th width="250"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
-    <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
-    <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
+      <td>
+          <li>bg+</li>
+          <li>bg:n</li>
+          <li>bgc</li>
+          <li>bgc:t</li>
+          <li>bgi</li>
+          <li>bgi:n</li>
+          <li>bgsz:a</li>
+          <li>bgsz:ct</li>
+          <li>bgsz:cv</li>
+          <li>bgp:x</li>
+          <li>bgsz</li>
+          <li>bg</li>
+
+      </td>
+      <td>
+
+          <li>background:#fff url() 0 0 no-repeat;</li>
+          <li>background:none;</li>
+          <li>background-color:#fff;</li>
+          <li>background-color:transparent;</li>
+          <li>background-image:url();</li>
+          <li>background-image:none;</li>
+          <li>background-size:;</li>
+          <li>background-size:auto;</li>
+          <li>background-size:contain;</li>
+          <li>background-size:cover;</li>
+          <li>background-position-x:;</li>
+          <li>background-position-y:;</li>
+      </td>
+
+      <td> <li>bgr</li>
+       <li>bgr:n</li>
+       <li>bgr:x</li>
+       <li>bgr:y</li>
+       <li>bgr:sp</li>
+       <li>bgr:rd</li>
+       <li>bga</li>
+       <li>bga:f</li>
+       <li>bga:s</li>
+       <li>bgp</li>
+   </td>
+   <td><li>background:#000;</li>
+   <li>background-repeat:;</li>
+   <li>background-repeat:no-repeat;</li>
+   <li>background-repeat:repeat-x;</li>
+   <li>background-repeat:repeat-y;</li>
+   <li>background-repeat:space;</li>
+   <li>background-repeat:round;</li>
+   <li>background-attachment:;</li>
+   <li>background-attachment:fixed;</li>
+   <li>background-attachment:scroll</li>
+   <li>background-position:0 0;</li>
+   </td>
+</tr>
   </tbody>
-</table>
+</table> <!--//////fin tablecss ////////-->
 
-<!-- //////// block couleur pr tablette //////////////-->
+<div class="row blockcss">
+    <div class="small-12 columns">
+        <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="color">COLOR</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>c</li>
+      <li>c:r</li>
+      <li>c:ra</li>
+      <li>op</li>
+  </td>
+  <td>
+      <li>color:#000;</li>
+      <li>color:rgb(0, 0, 0);</li>
+      <li>color:rgba(0, 0, 0, .5);</li>
+      <li>opacity:;</li>
+  </td>
+  </tr>
+</tbody>
+</table> <!--//////fin tablecss ////////-->
 
-            <div  id="blockcolor2"class="row show-for-medium-only">
+<div class="row blockcss">
+    <div class="small-12 columns">
+        <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="margin">MARGIN/PADDING</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>m</li>
+      <li>m:a</li>
+      <li>mt</li>
+      <li>mt:a</li>
+      <li>mr</li>
+      <li>mr:a</li>
+      <li>mb</li>
+      <li>mb:a</li>
+  </td>
+  <td>
+      <li>margin:;</li>
+      <li>margin:auto;</li>
+      <li>margin-top:;</li>
+      <li>margin-top:auto;</li>
+      <li>margin-right:;</li>
+      <li>margin-right:auto;</li>
+      <li>margin-bottom:;</li>
+      <li>margin-bottom:auto;</li>
+  </td>
+  <td>
+      <li>ml</li>
+      <li>ml:a</li>
+      <li>p</li>
+      <li>pt</li>
+      <li>pr</li>
+      <li>pb</li>
+      <li>pl</li>
+  </td>
+  <td>
+      <li>margin-left:;</li>
+      <li>margin-left:auto;</li>
+      <li>padding:;</li>
+      <li>padding-top:;</li>
+      <li>padding-right:;</li>
+      <li>padding-bottom:;</li>
+      <li>padding-left:;</li>
+  </td>
+  </tr>
+</tbody>
+</table> <!--//////fin tablecss ////////-->
+<div class="row blockcss">
+    <div class="small-12 columns">
+        <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="table">table</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>tbl</li>
+      <li>tbl:a</li>
+      <li>tbl:f</li>
+      <li>cps</li>
+      <li>cps:t</li>
+      <li>cps:b</li>
+      <li>ec</li>
+      <li>ec:s</li>
+      <li>ec:h</li>
+  </td>
+  <td>
+      <li>table-layout:;</li>
+      <li>table-layout:auto;</li>
+      <li>table-layout:fixed;</li>
+      <li>caption-side:;</li>
+      <li>caption-side:top;</li>
+      <li>caption-side:bottom;</li>
+      <li>empty-cells:;</li>
+      <li>empty-cells:;</li>
+      <li>empty-cells:hide;</li>
+  </td>
+  </tr>
+</tbody>
+</table> <!--//////fin tablecss ////////-->
 
-                <div id="block2"class="large-4 column gray">
-                      <p>111111111</p>
-                 </div> <!--fin small 6 interne 2 bleu-->
-                 <div id="block3"class="large-4 column blue">
-                     <p>2222222222</p>
-                  </div>
-                  <div id="block4"class="large-4 column violet">
-                      <p>33333333333</p>
-                   </div>
-          </div><!--fin row block2-->
+</table> <!--//////fin tablecss ////////-->
+<div class="row blockcss">
+    <div class="small-12 columns">
+        <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="border">BORDER</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>bd</li>
+      <li>bd+</li>
+      <li>bd:n</li>
+      <li>bdc</li>
+      <li>bdc:t</li>
+      <li>bdi</li>
+      <li>bdi:n</li>
+      <li>bds</li>
+      <li>bds:n</li>
+      <li>bds:h</li>
+      <li>bds:dt</li>
+      <li>bds:ds</li>
+      <li>bds:s</li>
+      <li>bdt; bt</li>
+      <li>bdt+</li>
+      <li>bdt:n</li>
+
+  </td>
+  <td>
+      <li>border:;</li>
+      <li>border:1px solid #000;</li>
+      <li>border:none;</li>
+      <li>border-color:#000;</li>
+      <li>border-color:transparent;</li>
+      <li>border-image:url();</li>
+      <li>border-image:none;</li>
+      <li>border-style:;</li>
+      <li>border-style:none;</li>
+      <li>border-style:hidden;</li>
+      <li>border-style:dotted;</li>
+      <li>border-style:dashed;</li>
+      <li>border-style:solid;</li>
+      <li>border-top:;</li>
+      <li>border-top:1px solid #000;</li>
+      <li>border-top:none;</li>
+
+     <td>
+
+         <li>bdr, br</li>
+         <li>bdr+</li>
+         <li>bdr:n</li>
+         <li>bdrst</li>
+         <li>bdrst:n</li>
+         <li>bdl ,bl</li>
+         <li>bdl+</li>
+         <li>bdl:n</li>
+         <li>bdlc</li>
+         <li>bdrs</li>
+         <li>bdtrrs</li>
+         <li>bdtlrs</li>
+         <li>bdbrrs</li>
+         <li>bdblrs</li>
+     </td>
+    <td>
+
+        <li>border-right:;</li>
+        <li>border-right:1px solid #000;</li>
+        <li>border-right:none;</li>
+        <li>border-right-style:;</li>
+        <li>border-right-style:none;</li>
+        <li>border-left:;</li>
+        <li>border-left:1px solid #000;</li>
+        <li>border-left:none;</li>
+        <li>border-left-color:#000;</li>
+        <li>border-radius:;</li>
+        <li>border-top-right-radius:;</li>
+        <li>border-top-left-radius:;</li>
+        <li>border-bottom-right-radius:;</li>
+        <li>border-bottom-left-radius:;</li>
+    </td>
+  </tr>
+</tbody>
+</table> <!--//////fin tablecss ////////-->
+
+</table> <!--//////fin tablecss ////////-->
+<div class="row blockcss">
+    <div class="small-12 columns">
+        <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="font">FONT</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>f</li>
+      <li>f+</li>
+      <li>fw</li>
+      <li>fw:n</li>
+      <li>fw:b</li>
+      <li>fw:br</li>
+      <li>fw:lr</li>
+      <li>fs</li>
+      <li>fs:i</li>
+      <li>fs:n</li>
+      <li>fv:o</li>
+      <li>fv:sc</li>
+
+
+  </td>
+  <td>
+      <li>font:;</li>
+      <li>font:1em Arial,ss</li>
+      <li>font-weight:;</li>
+      <li>font-weight:normal;</li>
+      <li>font-weight:bold;</li>
+      <li>font-weight:bolder;</li>
+      <li>font-weight:lighter;</li>
+      <li>font-style:${italic};</li>
+      <li>font-style:normal;</li>
+      <li>font-style:oblique;</li>
+      <li>font-variant:small-ca</li>
+
+     <td>
+         <li>fz</li>
+         <li>ff</li>
+         <li>ff:s</li>
+         <li>ff:ss</li>
+         <li>ff:c</li>
+         <li>ff:a</li>
+         <li>ff:t</li>
+         <li>ff:v</li>
+     </td>
+    <td>
+        <li>font-size:;</li>
+        <li>font-family:;</li>
+        <li>font-family:serif;</li>
+        <li>font-family:sans-serif;</li>
+        <li>font-family:cursive;</li>
+        <li>font-family: Arial, "H.neue",s-s;</li>
+        <li>font-family: "Times NR", Times;</li>
+        <li>font-family: Verdana, Geneva,;</li>
+  </td>
+  </tr>
+</tbody>
+</table> <!--//////fin tablecss ////////-->
+
+<div class="row blockcss">
+    <div class="small-12 columns">
+        <table class="tablecss" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="list">LIST</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>lis</li>
+      <li>lis:n</li>
+      <li>lisp</li>
+      <li>lisp:i</li>
+      <li>lisp:o</li>
+
+  </td>
+  <td>
+      <li>list-style:none;</li>
+      <li>list-style-position:;</li>
+      <li>list-style-position:inside;</li>
+      <li>list-style-position:outside;</li>
+      <li>list-style-type:;</li>
+
+      <td>
+          <li>list</li>
+          <li>list:n</li>
+          <li>lisi</li>
+          <li>lisi:n</li>
+          <li></li>
+     </td>
+         <td>
+              <li>list-style:;</li>
+              <li>list-style-type:none;</li>
+              <li>list-style-image:;</li>
+              <li>list-style-image:none;</li>
+        </td>
+    </tr>
+</tbody>
+</table> <!--//////fin tablecss ////////-->
+
+<div class="row blockhtml">
+    <div class="small-12 columns">
+        <table class="tablehtml" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="alink">A/LINK</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>a</li>
+      <li>a:link</li>
+      <li>a:mail</li>
+      <li>abbr</li>
+      <li>link</li>
+  </td>
+  <td>
+      <li>/a href=""> /a></li>
+      <li>/a href="http://">/a></li>
+      <li>/a href="mailto:">/a></li>
+      <li>/abbr title="">/abbr></li>
+      <li>/link rel="" href="" /></li>
+    </tr>
+
+</tbody>
+</table> <!--//////fin tablehtml ////////-->
+
+<div class="row blockhtml">
+    <div class="small-12 columns">
+        <table class="tablehtml" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="button">BUTTON/LIST</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>bn</li>
+      <li>button:submit, button:s, btn:s</li>
+      <li>button:reset, button:r, btn:r</li>
+      <li>button:disabled, button:d, btn:d</li>
+      <li>ol+</li>
+      <li>ul+</li>
+      <li>dl+</li>
+      <li>table+</li>
+      <li>tr+</li>
+  </td>
+  <td>
+      <li>Alias of button</li>
+      <li>-button type="submit"> -/button></li>
+      <li>-button type="reset">-/button>
+      <li>-button disabled="disabled">-/button></li>
+      <li>Alias of ol>li</li>
+      <li>Alias of ul>li</li>
+      <li>Alias of dl>dt+dd</li>
+      <li>Alias of table>tr>td</li>
+      <li>Alias of tr>td</li>
+  </td>
+    </tr>
+</tbody>
+</table> <!--//////fin tablehtml ////////-->
+
+<div class="row blockhtml">
+    <div class="small-12 columns">
+        <table class="tablehtml" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="media">MEDIA</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>bq</li>
+      <li>fig</li>
+      <li>figc</li>
+      <li>pic</li>
+      <li>ifr</li>
+      <li>emb</li>
+      <li>obj</li>
+      <li>cap</li>
+  </td>
+  <td>
+      <li>Alias of blockquote</li>
+      <li>Alias of figure</li>
+      <li>Alias of figcaption</li>
+      <li>Alias of picture</li>
+      <li>Alias of iframe</li>
+      <li>Alias of embed</li>
+      <li>Alias of object</li>
+      <li>Alias of caption</li>
+  </td>
+    </tr>
+</tbody>
+</table> <!--//////fin tablehtml ////////-->
+<div class="row blockhtml">
+    <div class="small-12 columns">
+        <table class="tablesynthaxe" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="id">ID & ATTRIBUTES</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>#header</li>
+      <li>.class</li>
+      <li>em>.class</li>
+      <li>ul>.class</li>
+      <li>.title</li>
+      <li>form#search.wide</li>
+      <li>p.class1.class2.class3</li>
+
+  </td>
+  <td>
+      <li>-div id="header">-/div></li>
+      <li>-div class="class">-/div></li>
+      <li>-em>-span class="class">-/span>-/em></li>
+      <li>-ul>-li class="class">-/li>-/ul></li>
+      <li>-div class="title">-/div></li>
+      <li>-form id="search" class="wide">-/form></li>
+      <li>-p class="class1 class2 class3">-/p></li>
+  </td>
+    </tr>
+</tbody>
+</table> <!--//////fin tablehtml ////////-->
+
+<div class="row blockhtml">
+    <div class="small-12 columns">
+        <table class="tablesynthaxe" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="item">ITEM NUMBERING</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>ul>li*5</li>
+      <li>ul>li.item$*5</li>
+      <li>h$[title=item$]{Header $}*3</li>
+      <li>ul>li.item$$$*5</li>
+      <li>ul>li.item$@-*5</li>
+      <li>ul>li.item$@3*5</li>
+  </td>
+  <td>
+      <li>ul creation de 5 li</li>
+      <li>ul et li de 5 item</li>
+      <li>3 h - avec title et header</li>
+      <li>ul li item nommé 00-</li>
+      <li>ul avec li de item nombre decroissant jusque 5</li>
+      <li>ul et li d'item de 3 à 5</li>
+
+  </td>
+    </tr>
+</tbody>
+</table> <!--//////fin tablehtml ////////-->
+
+<div class="row blockhtml">
+    <div class="small-12 columns">
+        <table class="tablesynthaxe" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
+<thead>
+<tr>
+  <th width="300"><div id="text">TEXT</div></th>
+  <th class="text-right"><a href="#bannerlogo">RETOUR AU DEBUT</a></th>
+  <th width="200"></th>
+  <th width="250"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+      <li>a{Click me}</li>
+      <li>p>{Click }+a{here}+{ to continue}</li>
+
+  </td>
+  <td>
+      <li>-a href="">Click me-/a></li>
+      <li>-p>Click <a href="">here</a> to continue-/p></li>
+
+
+  </td>
+    </tr>
+</tbody>
+</table> <!--//////fin tablehtml ////////-->
 
 
 
 
-  </div><!--fin du block left-->
+</div> <!-- fin de row block5 -->
+</div> <!-- fin de row block6 -->
+</div> <!-- fin de row block7 -->
 
 
-
+</div><!--fin row interne-->
 
 <!-- PLUGIN FOUNDATION -->
     <script src="js/vendor/jquery.js"></script>
