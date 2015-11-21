@@ -19,21 +19,19 @@
         margin-right: auto;
     }
     #block2 { /*------------block 2 et block 3 couleur de fond et bordure ------*/
-        height: 390px;
+        height: 130px;
         border: 6px solid black;
         border-bottom: 0px solid;
     }
     #block3 {
-        height: 390px;
+        height: 130px;
         border: 6px solid black;
-        border-left: 2px;
-        border-bottom: 0 solid;
+        border-bottom: 0px solid;
     }
-    #block5 {
-        height: 200px;
-        border: 5px solid black;
-        width: 1065px;
-        margin-left: 25px;
+    #block4 {
+        height: 130px;
+        border: 6px solid black;
+        border-bottom: 0px solid;
     }
     #blockcolor { /*------------style de la row 1 entiere ------*/
         margin-top: 20px;
@@ -45,8 +43,7 @@
     }
 
    .button {
-       z-index: 2;
-       margin-top: 400px;
+      
    }
    #side {
        padding-top: 20px;
@@ -63,5 +60,38 @@
         padding-bottom: 15px;
         padding-top: 10px;
     }
+    #blockcolor { /*------------style de la row 1 entiere ------*/
+        margin: 0 auto;
 
+    }
 }
+@media all and (max-width: 899px) {
+    body{
+        overflow: hidden;
+    }
+    #bannerlogo {
+        background-color: #363442;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    #blockcolor { /*------------style de la row 1 entiere ------*/
+        margin-top: 20px;
+
+    }
+    #block2 { /*------------block 2 et block 3 couleur de fond et bordure ------*/
+        height: 200px;
+        border: 6px solid black;
+        border-bottom: 0px solid;
+    }
+    #block3 {
+        height: 200px;
+        border: 6px solid black;
+        border-bottom: 0px solid;
+    }
+    #block4 {
+        height: 200px;
+        border: 6px solid black;
+        border-bottom: 0px solid;
+    }
+
+    }
