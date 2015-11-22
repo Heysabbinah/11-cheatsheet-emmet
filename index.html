@@ -137,29 +137,38 @@
        <!--//////////////// style 2 menu deroulant////////--->
 <div class="row small-12 columns show-for-small-only">
     <p>&nbsp</p>
-       <button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="large alert round button dropdown">CSS</button><br>
-            <ul id="drop" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
+    <ul class="button-group">
+<li><a href="#" class="button" data-dropdown="dd1">CSS</a></li>
+<li><a href="#" class="button" data-dropdown="dd2">HTML</a></li>
+<li><a href="#" class="button" data-dropdown="dd3">SYNTHAXE</a></li>
+</ul>
+
+<div id="dd1" class="f-dropdown">
+            <ul>
             <li><a href="#">Background</a></li>
             <li><a href="#">Color</a></li>
-            <li><a href="#">Margin/padding</a></li>
+            <li><a href="#">Margin/Padding</a></li>
             <li><a href="#">Table</a></li>
             <li><a href="#">Border</a></li>
-            <li><a href="#">font & List</a></li>
-            </ul>
+            <li><a href="#">Font/List</a></li>
+        </ul>
+</div>
 
-<button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="large alert round button dropdown">HTML</button><br>
-             <ul id="drop2" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
-             <li><a href="#">a/Link</a></li>
-             <li><a href="#">Button/List</a></li>
-             <li><a href="#">Media</a></li>
-          </ul>
+        <div id="dd2" class="f-dropdown">
+            <ul>
+            <li><a href="#">A/Link</a></li>
+            <li><a href="#">Button/List</a></li>
+            <li><a href="#">Media</a></li>
+        </ul><!-- dropdown stuff here -->
+        </div>
 
-<button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="large alert round button dropdown">SYNTHAXE</button><br>
-             <ul id="drop3" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
-             <li><a href="#">ID/Attributes</a></li>
-             <li><a href="#">Item numbering</a></li>
-             <li><a href="#">Text</a></li>
-             </ul>
+    <div id="dd3" class="f-dropdown">
+        <ul>
+        <li><a href="#">ID/Attributes</a></li>
+        <li><a href="#">Item numbering</a></li>
+        <li><a href="#">Text</a></li>
+    </ul>
+</div>
 </div><!-- ///// fin row btn ----->
 
        <!-- ////////////////////////////// table pr smartphone /////////////////////-->

@@ -190,8 +190,9 @@ a {
             font-size: 0.6em;
             background-color: #fff8bb;
         }
-        .f-dropdown {
-            margin-top: 20px;
+        button {
+            margin-top: 100px;
+            display: block;
         }
 
 
