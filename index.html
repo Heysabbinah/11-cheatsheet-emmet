@@ -108,27 +108,7 @@
     </div><!--fin block1-->
 </div><!--fin row blockcolor-->
 
-<div class="row small-12 columns show-for-small-only">
-    <div class="small-12 columns">
-<ul class="tabs" data-tab>
-  <li class="tab-title active"><a href="#panel1">Tab 1</a></li>
-  <li class="tab-title"><a href="#panel2">Tab 2</a></li>
-  <li class="tab-title"><a href="#panel3">Tab 3</a></li>
-</ul>
-<div class="tabs-content small-12 columns">
-  <div class="content active" id="panel1">
-    <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
-  </div>
-  <div class="content" id="panel2">
-    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
-  </div>
-  <div class="content" id="panel3">
-    <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
-  </div>
 
-</div>
-</div><!-- fin class small 12 table smartphone -->
-</div><!--fin de row pr table smartphone -->
 
 
 <!--//////////////////// debut du block 4 en dessous sur toute la largeur /////////////////--->
@@ -146,7 +126,82 @@
        </div> <!-- fin de row block6 -->
        </div> <!-- fin de row block7 -->
 
+       <!-- /////////////////// menu categorie pour le smartphone /////////////////////-->
+       <!-- <div class="small-12 columns show-for-small-only">
+           <a href="#css" class="button success">CSS</a>&nbsp
+           <a href="#" class="button success">HTML</a>&nbsp
+           <a href="#" class="button success">SYNTHAXE</a>&nbsp
+       </div> -->
 
+
+       <!--//////////////// style 2 menu deroulant////////--->
+<div class="row small-12 columns show-for-small-only">
+    <p>&nbsp</p>
+       <button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="large alert round button dropdown">CSS</button><br>
+            <ul id="drop" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
+            <li><a href="#">Background</a></li>
+            <li><a href="#">Color</a></li>
+            <li><a href="#">Margin/padding</a></li>
+            <li><a href="#">Table</a></li>
+            <li><a href="#">Border</a></li>
+            <li><a href="#">font & List</a></li>
+            </ul>
+
+<button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="large alert round button dropdown">HTML</button><br>
+             <ul id="drop2" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
+             <li><a href="#">a/Link</a></li>
+             <li><a href="#">Button/List</a></li>
+             <li><a href="#">Media</a></li>
+          </ul>
+
+<button data-dropdown="drop" aria-controls="drop" aria-expanded="false" class="large alert round button dropdown">SYNTHAXE</button><br>
+             <ul id="drop3" data-dropdown-content class="f-dropdown" role="menu" aria-hidden="false" tabindex="-1">
+             <li><a href="#">ID/Attributes</a></li>
+             <li><a href="#">Item numbering</a></li>
+             <li><a href="#">Text</a></li>
+             </ul>
+</div><!-- ///// fin row btn ----->
+
+       <!-- ////////////////////////////// table pr smartphone /////////////////////-->
+
+<div class="row small-12 columns show-for-small-only">
+         <div id="csstable" class="content active" >
+           <table>
+                <th>Background</th>
+                <tr>
+                    <td>
+                        <li>bg+</li>
+                        <li>bg:n</li>
+                        <li>bgc</li>
+                        <li>bgc:t</li>
+                        <li>bgi</li>
+                        <li>bgi:n</li>
+                        <li>bgsz:a</li>
+                        <li>bgsz:ct</li>
+                        <li>bgsz:cv</li>
+                        <li>bgp:x</li>
+                        <li>bgsz</li>
+                        <li>bg</li>
+                    </td>
+                    <td>
+                        <li>background:#fff url() 0 0 no-repeat;</li>
+                        <li>background:none;</li>
+                        <li>background-color:#fff;</li>
+                        <li>background-color:transparent;</li>
+                        <li>background-image:url();</li>
+                        <li>background-image:none;</li>
+                        <li>background-size:;</li>
+                        <li>background-size:auto;</li>
+                        <li>background-size:contain;</li>
+                        <li>background-size:cover;</li>
+                        <li>background-position-x:;</li>
+                        <li>background-position-y:;</li>
+                    </td>
+                </tr>
+           </table>
+
+       </div><!--fin de row pr table smartphone -->
+</div>
 
 
 
@@ -546,6 +601,10 @@
 </tbody>
 </table> <!--//////fin tablecss ////////-->
 
+
+<!-- ////////////////////////////////////// HTML /////////////////////////////////////////////
+//////////////////////////////////////////       ////////////////////////////////////////////-->
+
 <div class="row blockhtml">
     <div class="small-12 columns">
         <table class="tablehtml" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">
@@ -652,6 +711,9 @@
     </tr>
 </tbody>
 </table> <!--//////fin tablehtml ////////-->
+
+<!-- ////////////////////////////////////// SYNTHAXE /////////////////////////////////////////////
+//////////////////////////////////////////           ////////////////////////////////////////-->
 <div class="row blockhtml">
     <div class="small-12 columns">
         <table class="tablesynthaxe" role="grid" summary="tableau explicatif des differents shortcut pour chaque categorie">

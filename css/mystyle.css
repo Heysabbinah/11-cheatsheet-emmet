@@ -175,11 +175,25 @@ a {
         }
 
         /* /////////////////////////// media taille max smartphone /////////////////////////////////*/
-        @media all and (max-width: 500px) {
+        @media all and (max-width: 700px) {
 
         #panel1 p {
             font-size: 0.9em; /*------taille de /p/ pour le table smartphone ----*/
         }
+        .button {
+            width: 280px;
+        }
+        #csstable {
+            width: 100%;
+        }
+        #csstable td {
+            font-size: 0.6em;
+            background-color: #fff8bb;
+        }
+        .f-dropdown {
+            margin-top: 20px;
+        }
+
 
 
 
