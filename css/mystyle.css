@@ -181,20 +181,37 @@ a {
         .button {
         width: 290px;
         }
+        .blocktable {
+            background-color:#fff8bb;
+        }
 
         p {
             font-size: 0.9em;
             line-height: 0.5;
         }
-        #categorie {
+        #categoriecss {
             background-color: #fff8bb;
         }
-        #background {
+        #categoriehtml {
+            background-color: #15b0bf;
+        }
+        #categoriesynthaxe {
+            background-color: #9c0e7a;
+        }
+        #backgroundsm {
             margin-bottom: 20px;
             margin-top: 10px;
             background-color: #f47637;
             padding: 10px;
         }
+        #colorsm {
+            margin-bottom: 20px;
+            margin-top: 10px;
+            background-color: #f47637;
+            padding: 10px;
+        }
+
+
 
 
 }
