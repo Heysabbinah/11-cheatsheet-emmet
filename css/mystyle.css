@@ -179,14 +179,22 @@ a {
         @media all and (max-width: 700px) {
 
         .button {
-            width: 280px;
+        width: 290px;
         }
-        #csstable {
-            width: 100%;
+
+        p {
+            font-size: 0.9em;
+            line-height: 0.5;
         }
-        #csstable td {
-            font-size: 0.6em;
+        #categorie {
             background-color: #fff8bb;
         }
+        #background {
+            margin-bottom: 20px;
+            margin-top: 10px;
+            background-color: #f47637;
+            padding: 10px;
+        }
+
 
 }
